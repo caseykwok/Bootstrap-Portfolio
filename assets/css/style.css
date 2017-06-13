@@ -31,18 +31,18 @@
 }
 
 .navbar-default {
-	background-color: #ffffff;
-	border-bottom: 1.5px solid #cccccc;
+	background-color: #ffffff; /*make navbar white instead of default light grey color*/
+	border-bottom: 1.5px solid #cccccc; /*give the bottom of the border */
 }
 
 .navbar-brand {
-	font-size: 24px;
-	padding: 15px 30px;
+	font-size: 24px; /*change Casey Kwok to font size 24px*/
+	padding: 15px 30px; /*add padding to Casey Kwok*/
 }
 
 .navbar-default .navbar-brand {
-	color: #ffffff;
-	font-weight: bold;
+	color: #ffffff; /*change the color of Casey Kwok to white*/
+	font-weight: bold; /*bold Casey Kwok*/
 }
 
 /*.navbar-default .navbar-brand:focus,
@@ -67,7 +67,7 @@
 
 h3, h4 {
 	font-weight: bold;
-	margin-top: 0px;
+	margin-top: 0px; /*default margin-top on headers for bootstrap css*/
 }
 
 .profile_image {
@@ -84,19 +84,19 @@ h3, h4 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 16px; /*make about me content to 16px font-size*/
 	line-height: 150%;
 }
 
 .body_content {
 	border: 1px solid #dddddd; 
 	margin-bottom: 30px;
-	margin-top: 10px;
+	margin-top: 10px; /*original navbar container already has margin-bottom of 20px so to make the spacing between the navbar and body 30px like the original version, give only additional 10px margin-top*/ 
 	padding: 30px;
 }
 
 .body_connect {
-	margin-top: 10px;
+	margin-top: 10px; /*original navbar container already has margin-bottom of 20px so to make the spacing between the navbar and body 30px like the original version, give only additional 10px margin-top*/ 
 	padding: 30px;
 }
 
@@ -105,32 +105,31 @@ p {
 }
 
 .body_connect_icons {
-	width: 100%;
+	width: 100%; /*instead of the 33.33% because it is separated into 3 columns within 1 row*/
 }
 
 .form_style input::-webkit-input-placeholder {
-	color: #bbc0c9;
+	color: #bbc0c9; /*change the placeholder text into a lighter shade of grey*/
 }
 
 label {
-	font-weight: normal;
+	font-weight: normal; /*bootstrap defaults the form labels to bold, need to make it normal weight*/
 }
 
 .form-control {
-	border-radius: 0px;
+	border-radius: 0px; /*bootstrap defaults the form inputs with rounded corners, need to make it square corners*/
 }
 
 .btn {
-	border-radius: 0px;
+	border-radius: 0px; /*bootstrap defauls the submit button with rounded corners, need to make it square corners*/
 	padding: 10px 20px;
 }
 
 .btn-default {
-	border: none;
+	border: none; /*bootstrap defaults the submit button with grey border, need to remove the border*/
 }
 
 .images {
-	float: left;
 	height: 50%;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -139,7 +138,7 @@ label {
 
 .absolute {
 	left: 0px;
-	margin: 0px 15px;
+	margin: 0px 15px; /*used to trim the extra 15px from both left and right sides sticking from of the portfolio labels*/
 	padding-bottom: 3%;
 	padding-top: 3%;
 	position: absolute;
@@ -157,12 +156,12 @@ label {
 }
 
 .flex {
-	display: flex;
-	flex-direction: row;
+	display: flex; /*defines the element as flex container and its children as flex items*/
+	flex-direction: row; /*items are displayed horizontally, unnecessary since this is default value*/
 }
 
 @media screen and (max-width: 768px) {
 	.nav>li>a {
-		padding: 10px 30px;
+		padding: 10px 30px; /*align the header options with the name*/
 	}
 }
