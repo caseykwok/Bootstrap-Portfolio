@@ -92,6 +92,7 @@ p {
 	border: 1px solid #dddddd; 
 	margin-bottom: 30px;
 	margin-top: 10px; /*original navbar container already has margin-bottom of 20px so to make the spacing between the navbar and body 30px like the original version, give only additional 10px margin-top*/ 
+	overflow: auto;
 	padding: 30px;
 }
 
